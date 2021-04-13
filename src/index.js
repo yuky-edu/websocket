@@ -3,7 +3,7 @@ import express from 'express'
 import cors from 'cors'
 
 const app = express()
-const port = process.env.WS_PORT || process.env.PORT
+const port = process.env.PORT
 
 const server = app.listen(port, () => {
   console.log(`server running on :${port}`)
