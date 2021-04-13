@@ -1,0 +1,22 @@
+{
+  "name": "yuky-ws",
+  "version": "0.0.1",
+  "description": "Yuky Websocket Server",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "Arnav",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
