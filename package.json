@@ -4,7 +4,7 @@
   "description": "Yuky Websocket Server",
   "main": "src/index.js",
   "scripts": {
-    "serve": "node main.js",
+    "start": "node main.js",
     "dev": "nodemon main.js"
   },
   "author": "Arnav",
